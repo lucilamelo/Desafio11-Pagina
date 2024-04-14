@@ -1,0 +1,92 @@
+:root {
+    --color_01: #ffffff;
+    --color_02: #3b84f0b2;
+    --color_03: #f3875c;
+    --color_04: #aeb3fa;
+}
+
+body {
+    background-image: url("../img/img.fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+table {
+    background-color: var(--color_01);
+    margin: auto;
+    width: 600px;
+    border-collapse: collapse;
+}
+
+#nav_box {
+    background-color: var(--color_02);
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+}
+
+#nav_box ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav_box li {
+    float: left;
+    padding: 15px;
+}
+
+#nav_box a {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--color_01);
+}
+
+#nav_box a:hover {
+    transition: 0.5s;
+    background-color: var(--color_04);
+}
+
+.article_box {
+    padding: 10px;
+}
+
+#image_box {
+    width: 450px;
+}
+
+#image_box img {
+    width: 100%;
+}
+
+#header_box img {
+    width: 600px;
+    height: 250px;
+}
+
+#Redesocial {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+#Redesocial img {
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+#Redesocial a {
+    text-decoration: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer_box {
+    text-align: center;
+    background-color: var(--color_02);
+}
